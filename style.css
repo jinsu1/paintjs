@@ -1,4 +1,5 @@
-@import "reset/css";
+@import "reset.css";
+
 body {
   background-color: #f6f9fc;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -26,6 +27,9 @@ body {
 
 .controls__range {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .controls .controls__btns {
@@ -62,4 +66,5 @@ body {
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   border-radius: 25px;
   margin-right: 5px;
+  cursor: pointer;
 }
