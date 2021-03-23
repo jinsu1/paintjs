@@ -9,7 +9,7 @@ const rangeNum = document.getElementById("rangeNum");
 canvas.width = 550;
 canvas.height = 550;
 
-ctx.strokeStyle = "#c2c2c2";
+ctx.strokeStyle = "#2c2c2c";
 ctx.lineWidth = 2.5;
 
 let painting = false;
