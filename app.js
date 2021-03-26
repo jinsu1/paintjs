@@ -7,9 +7,10 @@ const penRange = document.getElementById("jsRange");
 const rangeNum = document.getElementById("rangeNum");
 const modeBtn = document.getElementById("jsMode");
 const saveBtn = document.getElementById("jsSave");
+const clearBtn = document.getElementById("jsClear");
 
 const COLOR_black = "#2c2c2c";
-const SIZE_canvas = 550;
+const SIZE_canvas = 630;
 
 canvas.width = SIZE_canvas;
 canvas.height = SIZE_canvas;
@@ -107,4 +108,12 @@ function saveFile() {
 
 if(saveBtn) {
     saveBtn.addEventListener("click", saveFile);
+}
+
+function clearCanvas() {
+    ctx.clearRect(0, 0, SIZE_canvas, SIZE_canvas);
+}
+
+if(clearBtn) {
+    clearBtn.addEventListener("click", clearCanvas);
 }
