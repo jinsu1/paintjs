@@ -10,7 +10,7 @@ const saveBtn = document.getElementById("jsSave");
 const clearBtn = document.getElementById("jsClear");
 
 const COLOR_black = "#2c2c2c";
-const SIZE_canvas = 630;
+const SIZE_canvas = 550;
 
 canvas.width = SIZE_canvas;
 canvas.height = SIZE_canvas;
